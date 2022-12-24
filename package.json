@@ -1,0 +1,30 @@
+{
+  "name": "solar-panel-efficacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "type": "module",
+  "files": [
+    "dist/*.js",
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "test": "node ./src/test.js",
+    "start": "node ./src/main.js"
+  },
+  "author": "Zach Garrett",
+  "license": "ISC",
+  "dependencies": {
+    "@types/geojson": "^7946.0.10",
+    "dotenv": "^16.0.3",
+    "luxon": "^3.0.4",
+    "mathjs": "^11.3.0",
+    "neo4j-driver": "^5.1.0",
+    "p-queue": "^7.3.0",
+    "throttled-queue": "^2.1.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.0.2"
+  }
+}
